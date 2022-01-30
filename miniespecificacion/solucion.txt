@@ -40,7 +40,7 @@
 38.     Fin Si
 39.     Escriba "Ingrese si para continuar o no para dejar de ingresar datos"
 40.     lea salir
-41.     Si (cadena.equals("si")) entonces 
+41.     Si (salir.equals("si")) entonces 
 42.         bandera <-- false
 43.     Fin_Si
 44      contador <-- contador + 1
