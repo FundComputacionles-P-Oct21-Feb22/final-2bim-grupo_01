@@ -38,12 +38,12 @@
 36.             Fin Si
 37.         Fin Si
 38.     Fin Si
-39.     Escriba "Ingrese si para continuar o no para dejar de ingresar datos"
-40.     lea salir
-41.     Si (salir.equals("si")) entonces 
-42.         bandera <-- false
-43.     Fin_Si
-44      contador <-- contador + 1
+39.     contador <-- contador + 1
+40.     Escriba "Ingrese si para continuar o no para dejar de ingresar datos"
+41.     lea salir
+42.     Si (salir.equals("si")) entonces 
+43.         bandera <-- false
+44.     Fin_Si
 45. Fin_Mientras
 46.     Escribir "Numero de cuentas creadas: " + contador
 47.     Escribir (obtenerMensaje (contador))
